@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanim Hasan - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo1.svg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/dp1.png" alt="Tanim Hasan" width="300">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Tanim Hasan">Tanim Hasan</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" width="24" height="24">
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:2104035@student.ruet.ac.bd" class="contact-link">2104035@student.ruet.ac.bd</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Phone" width="24" height="24">
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+8801858257315" class="contact-link">+880-1858-257315</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="https://cdn-icons-png.flaticon.com/512/3652/3652191.png" alt="Calendar" width="24" height="24">
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 01, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="https://cdn-icons-png.flaticon.com/512/1865/1865269.png" alt="Calendar" width="24" height="24">
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>RUET, Rajshahi, Bangladesh</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/share/15ZZTZVHg8/" class="social-link" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Calendar" width="24" height="24">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/512/5969/5969020.png" alt="Calendar" width="24" height="24">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/__t.a.n.i.m__/" class="social-link" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Calendar" width="24" height="24">
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am Tanim Hasan, a student of Electronics and Telecommunication Engineering at RUET.
+I have a deep passion for electronics, circuit design, and embedded systems.</p>
+<p>
+Alongside my studies, I work as a web developer, building interactive and efficient websites.
+I enjoy solving technical challenges and creating innovative, low-cost solutions.
+With a blend of hardware and software skills, I strive to make a meaningful impact.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My Expertise</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Solving Circuits</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level with easyeda for new level of robotics.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">App Development</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Abir Hasan" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Abir Hasan</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Tanim was hired to create a corporate identity. We were very pleased with the work done. He has a
+                    lot of experience
+                    and is very concerned about the needs of client.
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Nayeema Rahman" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nayeema Rahman</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Tanim is a highly skilled professional who delivers exceptional results.
+His attention to detail and commitment to quality are impressive.
+He understands project requirements thoroughly and executes them flawlessly.
+Working with him was a smooth and rewarding experience.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Raisa Islam" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Raisa Islam</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    His expertise in both electronics and web development is outstanding.
+He efficiently combines hardware and software to create innovative solutions.
+Tanim’s problem-solving skills make him a valuable asset to any team.
+His dedication and professionalism set him apart from others.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Hafiz Khan" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Hafiz Khan</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with Tanim was a great experience from start to finish.
+                    He listens carefully to client needs and delivers beyond expectations.
+                    His creativity and technical knowledge ensure high-quality work.
+                    I highly recommend him for any challenging project.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828744.png" alt="Close" width="24" height="24">
+            </button>
+            
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Abir Hasan" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Abir Hasan</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Tanim was hired to create a corporate identity. We were very pleased with the work done. He has a
+                  lot of experience
+                  and is very concerned about the needs of client.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img src="https://cdn-icons-png.flaticon.com/512/1940/1940611.png" alt="Education" width="24" height="24">
+            </div>
+            
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Rajshahi University of Engineering & Technology</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+                RUET is an engineering university in Bangladesh which is government based.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">NotreDame College</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+               NotreDame College is one of the best colleges in Bangladesh located in Motijheel.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Rajuk Uttara Model College</h4>
+
+              <span>2014 — 2019</span>
+
+              <p class="timeline-text">
+                RUMC is an armed force controlled school in Uttara, Bangladesh.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img src="https://cdn-icons-png.flaticon.com/512/1946/1946938.png" alt="Experience" width="24" height="24">
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Robotics</h4>
+
+              <span>2015 — Present</span>
+
+              <p class="timeline-text">
+                Participating in different competetion of robotics with passion since early age.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Freelancing</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                working in fiverr and upwork in covid time period as a web developer.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Music</h4>
+
+              <span>2013 — Present</span>
+
+              <p class="timeline-text">
+                Playing near to all kinds of instruments in different programs.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">App Development</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Robotics</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Music</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+      
+        <section class="projects">
+      
+          <ul class="filter-list">
+      
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+      
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+      
+            <li class="filter-item">
+              <button data-filter-btn>Robotics</button>
+            </li>
+      
+            <li class="filter-item">
+              <button data-filter-btn>Music</button>
+            </li>
+      
+          </ul>
+      
+          <div class="filter-select-box">
+      
+            <button class="filter-select" data-select>
+      
+              <div class="select-value" data-selecct-value>Select category</div>
+      
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+      
+            </button>
+      
+            <ul class="select-list">
+      
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+      
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+      
+              <li class="select-item">
+                <button data-select-item>Robotics</button>
+              </li>
+      
+              <li class="select-item">
+                <button data-select-item>Music</button>
+              </li>
+      
+            </ul>
+      
+          </div>
+      
+          <ul class="project-list">
+      
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <img src="https://cdn-icons-png.flaticon.com/512/15411/15411241.png" alt="Experience" width="24" height="24">
+                  </div>
+                  <img src="./assets/images/web.png" alt="Finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Frontend</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <img src="https://cdn-icons-png.flaticon.com/512/15411/15411241.png" alt="Experience" width="24" height="24">
+                  </div>
+                  <img src="./assets/images/music1.JPG" alt="Orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">ETE Night</h3>
+                <p class="project-category">Music</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="robotics">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <img src="https://cdn-icons-png.flaticon.com/512/15411/15411241.png" alt="Experience" width="24" height="24">
+                  </div>
+                  <img src="./assets/images/tech.jpg" alt="Fundo" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tech Ovvudoy 2.0</h3>
+                <p class="project-category">Robotics</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <img src="https://cdn-icons-png.flaticon.com/512/15411/15411241.png" alt="Experience" width="24" height="24">
+                  </div>
+                  <img src="./assets/images/music2.jpg" alt="Brawlhalla" loading="lazy">
+                </figure>
+                <h3 class="project-title">Rag Concert</h3>
+                <p class="project-category">Music</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <img src="https://cdn-icons-png.flaticon.com/512/15411/15411241.png" alt="Experience" width="24" height="24">
+                  </div>
+                  <img src="./assets/images/web2.png" alt="DSM" loading="lazy">
+                </figure>
+                <h3 class="project-title">Backend</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <img src="https://cdn-icons-png.flaticon.com/512/15411/15411241.png" alt="Experience" width="24" height="24">
+                  </div>
+                  <img src="./assets/images/meta.png" alt="MetaSpark" loading="lazy">
+                </figure>
+                <h3 class="project-title">Meta Based</h3>
+                <p class="project-category">Web design</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="robotics">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <img src="https://cdn-icons-png.flaticon.com/512/15411/15411241.png" alt="Experience" width="24" height="24">
+                  </div>
+                  <img src="./assets/images/nrc.jpg" alt="Summary" loading="lazy">
+                </figure>
+                <h3 class="project-title">NRC 2025</h3>
+                <p class="project-category">Robotics</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="music">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <img src="https://cdn-icons-png.flaticon.com/512/15411/15411241.png" alt="Experience" width="24" height="24">
+                  </div>
+                  <img src="./assets/images/music3.jpg" alt="Task Manager" loading="lazy">
+                </figure>
+                <h3 class="project-title">Closing Ceremony</h3>
+                <p class="project-category">Music</p>
+              </a>
+            </li>
+      
+            
+      
+          </ul>
+      
+        </section>
+      
+      </article>
+      
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/soccer.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Robotics</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 23, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Improving Speed and Torque of soccerbot</h3>
+
+                  <p class="blog-text">
+                    To increase a soccer bot's speed and torque, use high-performance motors and optimize gear ratios.
+                     Additionally, lightweight materials and fine-tuned motor control ensure better acceleration and 
+                     responsiveness......
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/web3.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Web Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">june 24, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Responsive Clicking Method</h3>
+
+                  <p class="blog-text">
+                    The responsive clicking method ensures smooth and quick interactions 
+                    on websites by adapting to various screen sizes. By optimizing touch events 
+                    and implementing efficient UI elements, user engagement becomes seamless across all devices.......
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ccd.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Electronics</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 10, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Low Cost Wireless Oscilloscope</h3>
+
+                  <p class="blog-text">
+                    A low-cost wireless oscilloscope can be created by using affordable microcontrollers 
+                    like the Raspberry Pi Pico W, paired with basic components such as voltage 
+                    dividers and a simple app for display. By leveraging Wi-Fi connectivity, this oscilloscope
+                     can offer real-time waveform visualization on a mobile device or computer, making it a
+                      practical tool for electronics enthusiasts on a budget......
+
+
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/lfr.png" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Robotics</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">jan 27, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">STM 32 based Fastest LFR</h3>
+
+                  <p class="blog-text">
+                    An STM32-based Fastest Line Following Robot (LFR) can be built by utilizing the 
+                    high-speed processing capabilities of STM32 microcontrollers. By integrating fast sensors, 
+                    such as infrared or optical encoders, and implementing efficient motor control 
+                    algorithms (e.g., PID), the robot can achieve quick and precise line-following performance. 
+                    The STM32’s low latency and high-frequency PWM (Pulse Width Modulation) outputs allow for
+                     rapid response times, making it ideal for high-speed line-following tasks in competitive robotics.......
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d88.627618!3d24.363801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3754b8b8b8b8b8b8%3A0x8b8b8b8b8b8b8b8b!2sRajshahi+University+of+Engineering+and+Technology!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
